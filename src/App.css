@@ -1,0 +1,126 @@
+html {
+  min-height: 100%;
+}
+body {
+  background-color: aliceblue;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(240, 234, 234),
+    rgb(124, 119, 119)
+  );
+}
+.home {
+  margin: auto;
+  width: auto;
+  padding: 15% 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 4px 4px 2px rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: 50px;
+  color: rgb(214, 214, 214);
+}
+img {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  max-height: 100%;
+}
+.full {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+}
+.wrap {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  margin: 10px;
+  border-radius: 5%;
+  width: 250px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  background-color: rgb(241, 241, 241);
+  font-family: "Roboto", sans-serif;
+}
+.card p {
+  margin: 5px;
+  font-family: "Arvo", serif;
+}
+.card:hover {
+  overflow: hidden;
+  box-shadow: rgb(87, 85, 85) 0px 0px 7px;
+}
+.title {
+  margin: 0px 5px;
+  width: 240px;
+  height: 200px;
+}
+
+.title img {
+  z-index: 1;
+  width: 240px;
+  height: 200px;
+  border-radius: 5%;
+}
+
+.name p {
+  font-family: "Arvo", serif;
+  font-size: large;
+  font-weight: bold;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px;
+}
+.content {
+  margin: 0px 10px;
+}
+
+.cardinner {
+  border-radius: 5%;
+  margin: 0px 0px 10px 15px;
+  width: 200px;
+  background-color: rgb(197, 54, 54);
+  padding: 10px;
+}
+
+.useritems {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+}
+.icons {
+  width: 220px;
+  margin: 0px 0px 0px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.info {
+  justify-content: center;
+  display: flex;
+}
+.userdetails {
+  max-width: 600px;
+  display: flex;
+  margin-top: 5%;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+.addbtn {
+  display: flex;
+  justify-content: center;
+}
+.addbtn button {
+  width: 100%;
+}
